@@ -10,7 +10,7 @@ body {
 
 .navbar {
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
     background-color: black;
     position: sticky;
@@ -40,4 +40,63 @@ body {
     background-color: rgb(214, 180, 180);
     color: pink;
     box-shadow:rgb(214, 180, 180)
+}
+
+.hello {
+    display:flex;
+    flex-direction:column;
+    height:620px;
+    justify-content: center;
+    align-items: center;
+}
+
+.myself {
+    display:flex;
+    flex-direction: column;
+    border:1pxx solid white;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    right: 10%;
+}
+
+.introduce {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    box-sizing:border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.content {
+    display:flex;
+    align-items: center;
+}
+
+.content img {
+    width: 575px;
+    height: 400px;
+}
+
+.content h2 {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%; 
+}
+
+.content p {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 40%;
+    
 }
