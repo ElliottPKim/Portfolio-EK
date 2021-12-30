@@ -24,7 +24,7 @@ body {
 }
 
 .navbar ul li {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: monospace, Arial, Helvetica, sans-serif;
     font-size: 1.1rem;
     font-weight: bold;
 }
@@ -52,7 +52,7 @@ body {
 
 #bio p {
     font-size: 23px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: monospace, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 1.5;
     display:flex;
     flex-wrap:wrap;
@@ -98,15 +98,6 @@ body {
     
 } */
 
-.introduce {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 2.5rem;
-    text-align:center;
-    margin: 40px 0px;
-    padding:20px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: white;
 
 }
 
@@ -125,23 +116,16 @@ body {
 
 }
 
-.left img {
-    align-self:flex-start;
-    display:flex;
-}
 
-.right img {
-    align-self:flex-end;
-    display:flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    max-width: auto;
-}
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-around;
     box-sizing: border-box;
+    
+    
 }
 
 
@@ -150,7 +134,86 @@ body {
     width: 200px;
     height: 200px;
     margin: auto;
-    padding: auto;
+    padding: auto; 
+    
 }
 
 
+.left img {
+    align-self:flex-start;
+    display:flex;
+    height:650px;
+    width:750px;
+    float:left; 
+}
+
+.project1 {
+    font-weight:bold;
+    font-size:24px;
+    font-family:monospace, Arial;
+    text-align:center;
+    border-style: solid;
+    border-color:white;
+}
+
+.right img {
+    align-self:flex-end;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: auto;
+    float:right;
+}
+
+.project2 {
+    font-weight:bold;
+    font-size:24px;
+    font-family:monospace, Arial;
+    text-align:center;
+    border-style: solid;
+    border-color:white;
+}
+
+.project3 {
+    font-weight:bold;
+    font-size:24px;
+    font-family:monospace, Arial;
+    text-align:center;
+    border-style: solid;
+    border-color:white;
+}
+
+.project4 {
+    font-weight:bold;
+    font-size:24px;
+    font-family:monospace, Arial;
+    text-align:center;
+    border-style: solid;
+    border-color:white;
+}
+
+.project5 {
+    font-weight:bold;
+    font-size:24px;
+    font-family:monospace, Arial;
+    text-align:center;
+    border-style: solid;
+    border-color:white;
+}
+
+.contact-stuff img {
+    flex:wrap;
+    width: 24px;
+    height: 24px;
+
+}
+
+.introduce {
+    font-family:monospace, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.5rem;
+    text-align:center;
+    margin: 40px 0px;
+    padding:20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
