@@ -99,19 +99,19 @@ body {
 } */
 
 
-}
+
 
 /* p {
     font-size: 16px;
 } */
 
 
-#workadoo {
+.workadoo {
     display: flex;
     flex-direction:column;
-    background-color: rgb(155, 227, 229);
     align-items: center;
-    padding: 20px;
+    padding: auto;
+    margin:auto;
     justify-content: space-between;
 
 }
@@ -217,3 +217,4 @@ body {
     border-style: solid;
     border-width: 2px;
     border-color: white;
+}
