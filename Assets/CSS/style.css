@@ -62,11 +62,6 @@ body {
     text-align: center;
     padding:1%;
 }
-/* .content {
-    width: 75%;
-    display:inline-block;
-    margin-left: 20px;
-} */
 
 #content img {
     width: 400px;
@@ -75,37 +70,6 @@ body {
     margin-bottom: 15px;
 }
 
-/* .content h1 {
-    display:flex;
-    flex-direction:column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10%; 
-    font-size: 16px;
-} */
-
-/* .content p {
-    display:flex;
-    flex-direction: column;
-    text-align: right;
-    margin-right: 40%;
-    margin-top:10%;
-    line-height: 1.5;
-    padding:20px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: white;
-    
-} */
-
-
-
-
-/* p {
-    font-size: 16px;
-} */
-
-
 .workadoo {
     display: flex;
     flex-direction:column;
@@ -113,10 +77,7 @@ body {
     padding: auto;
     margin:auto;
     justify-content: space-between;
-
 }
-
-
 
 .gallery {
     display: flex;
@@ -124,18 +85,13 @@ body {
     flex-direction: row;
     justify-content: space-around;
     box-sizing: border-box;
-    
-    
 }
-
-
 
 .gallery img {
     width: 200px;
     height: 200px;
     margin: auto;
     padding: auto; 
-    
 }
 
 
@@ -147,7 +103,7 @@ body {
     float:left; 
 }
 
-.project1 {
+.project {
     font-weight:bold;
     font-size:24px;
     font-family:monospace, Arial;
@@ -165,49 +121,7 @@ body {
     float:right;
 }
 
-.project2 {
-    font-weight:bold;
-    font-size:24px;
-    font-family:monospace, Arial;
-    text-align:center;
-    border-style: solid;
-    border-color:white;
-}
-
-.project3 {
-    font-weight:bold;
-    font-size:24px;
-    font-family:monospace, Arial;
-    text-align:center;
-    border-style: solid;
-    border-color:white;
-}
-
-.project4 {
-    font-weight:bold;
-    font-size:24px;
-    font-family:monospace, Arial;
-    text-align:center;
-    border-style: solid;
-    border-color:white;
-}
-
-.project5 {
-    font-weight:bold;
-    font-size:24px;
-    font-family:monospace, Arial;
-    text-align:center;
-    border-style: solid;
-    border-color:white;
-}
-
-.contact-stuff img {
-    flex:wrap;
-    width: 24px;
-    height: 24px;
-
-}
-
+ 
 .introduce {
     font-family:monospace, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 2.5rem;
@@ -217,4 +131,35 @@ body {
     border-style: solid;
     border-width: 2px;
     border-color: white;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+#github {
+    flex:wrap;
+    width: 24px;
+    height: 24px;
+}
+
+@media screen and (min-width: 768px) {
+    .card-column {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .card-column:last child {
+        flex-grow:1;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .card-column {
+        flex: 0 0 33.3%;
+        max-width: 33.3%;
+    }
 }
