@@ -70,7 +70,37 @@ body {
     margin-bottom: 15px;
 }
 
-.workadoo {
+#workadoo {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(104, 194, 247, 0.3);
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.gallery img {
+    width: 360px;
+    height: 240px;
+    margin:10px;
+}
+
+.thumbnail:hover {
+    position:relative;
+    transition: .2s;
+    top:-20px;
+    left:-20px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+/* .workadoo {
     display: flex;
     flex-direction:column;
     align-items: center;
@@ -119,7 +149,7 @@ body {
     flex-wrap: wrap;
     max-width: auto;
     float:right;
-}
+} */
 
  
 .introduce {
