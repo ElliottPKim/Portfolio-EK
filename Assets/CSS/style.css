@@ -13,8 +13,9 @@ body {
     justify-content: center;
     align-items: center;
     background-color: black;
-    position: sticky;
-    top: 0px;
+    position: fixed;
+    top: 0;
+    width:100%;
 }
 
 .navbar ul {
@@ -175,6 +176,13 @@ body {
     width: 24px;
     height: 24px;
 }
+
+.trail { 
+    position: absolute;
+    height: 6px; width: 6px;
+    border-radius: 3px;
+    background: black;
+  }
 
 @media screen and (min-width: 768px) {
     .card-column {
